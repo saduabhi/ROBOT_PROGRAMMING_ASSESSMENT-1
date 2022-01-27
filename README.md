@@ -5,7 +5,7 @@ Grapes Counting autonomously using ROS
 
 Firstly, the workspace should be updated and upgraded
 
-Update:   sudo apt-get update && sudo apt-get upgrade
+Update:       sudo apt-get update && sudo apt-get upgrade
 
 Install the packages:
 
