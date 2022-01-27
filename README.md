@@ -44,7 +44,7 @@ In this task, we will run the topological navigation demonstrated in the lecture
        
 4. This step is required only once.
       
-        rosrun topological_utils load_yaml_map.py $(rospack find uol_cmp9767m_tutorial)/maps/new_test.yaml. 
+        rosrun topological_utils load_yaml_map.py $(rospack find uol_cmp9767m_tutorial)/maps/new_test.yaml
         
 5. open the topological map visualisation config for RVIZ in 
 
