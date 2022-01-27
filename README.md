@@ -32,7 +32,7 @@ In this task, we will run the topological navigation demonstrated in the lecture
    For launching the gazebo and Rviz
 
 
-    roslaunch bacchus_gazebo vineyard_demo.launch
+    roslaunch bacchus_gazebo vineyard_demo.launch world_name:=vineyard_small
     
    
 3. Launching the topo_nav.launch You will see some warnings in the terminal where you launched topo_nav.launch saying the pointset is not found in the message_store. This is because we haven't loaded the topological map to the mongodb yet. Once you do the next step, that warning should stop.
