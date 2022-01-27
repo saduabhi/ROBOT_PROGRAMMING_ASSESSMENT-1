@@ -5,11 +5,11 @@ Grapes Counting autonomously using ROS
 
 Firstly, the workspace should be updated and upgraded
 
-Update: sudo apt-get update && sudo apt-get upgrade
+Update:   sudo apt-get update && sudo apt-get upgrade
 
 Install the packages:
 
-sudo apt-get install \
+    sudo apt-get install \
     ros-melodic-topological-utils \
     ros-melodic-topological-navigation \
     ros-melodic-topological-navigation-msgs \
