@@ -1,0 +1,60 @@
+rosservice call /topological_map_manager/add_topological_node "
+name: WayPoint1
+pose:
+  position:
+    x: -3.60
+    y: -4.5
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+add_close_nodes: false"
+
+rosservice call /topological_map_manager/add_edges_between_nodes "
+origin: WayPoint1
+destination: WayPoint2
+action: move_base
+edge_id: WayPoint1_WayPoint2"
+
+rosservice call /topological_map_manager/add_topological_node "
+name: WayPoint2
+pose:
+  position:
+    x: -0.639859
+    y: -4.5
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+add_close_nodes: false"
+
+rosservice call /topological_map_manager/add_edges_between_nodes "
+origin: WayPoint2
+destination: WayPoint3
+action: move_base
+edge_id: WayPoint2_WayPoint3"
+
+rosservice call /topological_map_manager/add_topological_node "
+name: WayPoint3
+pose:
+  position:
+    x: 1.713264
+    y: -4.5
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+add_close_nodes: false"
+
+rosservice call /topological_map_manager/add_edges_between_nodes "
+origin: WayPoint3
+destination: WayPoint4
+action: move_base
+edge_id: WayPoint3_WayPoint4"
+
