@@ -1,7 +1,7 @@
 # ROBOT_PROGRAMMING_ASSESSMENT-1
 Grapes Counting autonomously using ROS
 
-Preparations
+#Preparations
 
 Firstly, the workspace should be updated and upgraded
 
