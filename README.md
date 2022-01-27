@@ -21,6 +21,8 @@ First, make sure that you have a working copy (fork and clone into your catkin w
     uol_cmp9767m_tutorial folder. 
     
 If you have your workspace set up already in the previous workshops, please pull the recent update from the repository as some of the workshop files have been updated recently.
+Or Create your own workspace, build the packages install and source the created workspace.
+later git clone the repository: 
 
 # TASK 1 - MAP DEMO
 In this task, we will run the topological navigation demonstrated in the lecture. You will learn how a topological map is defined, how it is loaded to the database (i.e. MongoDB), and how to make the robot move to different waypoints (nodes) using RVIZ.
